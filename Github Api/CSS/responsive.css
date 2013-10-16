@@ -1,0 +1,73 @@
+@media screen and (min-width: 320px){
+	body
+	{
+		border: 3px solid blue;
+		margin: 0 auto;
+		max-width: 480px;
+	}
+	.imprs
+	{
+		margin: 1em;
+		width: 90%:;
+	}
+	#registrate
+	{
+		width: 0;
+	}
+}
+@media screen and (min-width: 480px){
+	body
+	{
+		border: 3px solid green;
+		margin: 0 auto;
+		max-width: 768px;
+	}
+	.imprs
+	{
+		margin: 1em;
+		width: 90%:;
+	}
+	#registrate
+	{
+		width: 0;
+	}
+}
+@media screen and (min-width: 768px){
+	body
+	{
+		border: 3px solid red;
+		margin: 0 auto;
+		max-width: 90%
+	}
+	#impresion
+	{		
+		margin: 0;
+		width: 65%;
+		display: inline-block;
+	}
+	.imprs
+	{
+		display: block;
+	}
+	#registrate
+	{
+		display: block;
+		margin-right: 1em;
+		float: right;
+		vertical-align: top;
+		width: 30%;
+	}
+	#registrate button
+	{
+		background: #36C05C;
+		border-radius: 1em;
+		position: relative;
+		top: 10px; left: 25%;
+		padding: 0.3em 1em 0.3em 1em;
+	}
+	#registrate p
+	{
+		display: inline-block;
+		margin: 0 auto
+	}
+}

@@ -1,0 +1,110 @@
+a
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+body
+{
+	background: #EFEFEF;
+	color: #4C4C4C;
+	font-family: "PT Sans", Arial;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0;
+}
+header hgroup h1
+{
+	font-size: 20px;
+	font-weight: normal;
+	margin-left: 2em
+}
+header,footer
+{
+	background: #434343;
+	color: white;
+	text-align: left
+}
+hgroup
+{
+	display: inline-block;
+}
+hgroup figure, h1
+{
+	display: inline-block;
+	vertical-align: top;
+}
+hgroup figure img
+{
+	width: 60px;
+	margin: 0 1em 0 1em;
+}
+footer
+{
+	text-align: center;
+}
+nav
+{
+	background: #878787;
+	color: white;
+	font-size: 0.9em;
+	width: 100%
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+nav ul li
+{
+	display: inline-block;
+	padding: 0 0 0 1.2em;
+	vertical-align: top;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
+#avatar
+{
+	margin: 0.5em;
+	width: 100px;
+	display: block;
+}
+#avatar, h3,
+{
+	display: inline-block;
+}
+#contenido
+{
+	display: inline-block;
+	margin: 1em;
+}
+.imprs
+{
+	background: white;
+	border-bottom: 3px solid #223C3F;
+	border-radius: 1em;
+	margin: 1em;
+	padding: 0.5em;
+}
+.repos
+{
+	color: #434343;
+	text-decoration: none;
+}
+.imprs figure, .imprs h3
+{
+	display: inline-block;
+}
+.imprs h4, .imprs a 
+{
+	display: inline-block;
+}
+#todo
+{
+	min-height: 100px
+}
